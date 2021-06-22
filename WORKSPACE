@@ -1,3 +1,5 @@
+load("@bazel_tools//tools/build_defs/repo:git.bzl", "git_repository")
+
 # grpc is required for this project
 git_repository(
     name = 'grpc',
